@@ -39,6 +39,11 @@ Use `.env.example` and public test wallets where possible.
 
 - `profile.md`: learner profile, baseline, goals, and safety rules.
 - `learning-plan.md`: personalized learning roadmap and weekly rhythm.
+- `notes/`: concept cards and course notes.
+- `prompts/`: prompts used with the learning agent.
+- `demos/`: small interactive learning outputs and demos.
+- `logs/`: agent-assisted learning logs and operation records.
+- `resources.md`: Week 1 resources, links, and follow list.
 - `daily/`: daily check-in drafts and learning logs.
 - `tasks/`: task notes, proof, blockers, and completion records.
 - `experiments/`: coding, Agent, Solidity, Foundry, and data-analysis experiments.
@@ -50,7 +55,18 @@ Use `.env.example` and public test wallets where possible.
 ## Current Setup Status
 
 - Local learning workspace initialized.
-- GitHub remote not created yet.
-- Commit and push are pending manual confirmation.
+- GitHub public repository published: https://github.com/dylan070620/ai-web3-school-cohort-0
+- Initial commit pushed to `main`.
+- Future commits and pushes require manual confirmation.
 - GitHub CLI is not currently available in this terminal.
 
+## Week 1 Focus
+
+Week 1 follows the course rhythm: build shared language before building a large project.
+
+Main track:
+
+1. AI basics: LLM, prompt, workflow, agent, tool use, and AI coding.
+2. Web3 basics: account, wallet, signature, transaction, Gas, contract, testnet, and block explorer.
+3. Minimal crossover: AI output -> human review -> wallet confirmation -> on-chain execution -> block explorer verification -> GitHub record.
+4. Proof-of-work: concept notes, learning agent log, testnet transaction, minimal contract interaction, and Week 1 summary.

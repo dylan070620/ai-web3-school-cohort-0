@@ -4,6 +4,86 @@
 
 Build a working AI Agent that can read on-chain data, summarize wallet or contract activity, and help produce human-readable analysis for a Hackathon-style demo.
 
+## Week 1 Course-Aligned Focus
+
+Current priority: do not rush into a full on-chain data Agent yet.
+
+Week 1 is for shared language, safety boundaries, and one small AI x Web3 loop:
+
+AI output -> human review -> wallet confirmation -> on-chain execution -> block explorer verification -> GitHub record.
+
+Because my Web3 foundation is stronger than my AI engineering foundation, I should spend extra time on:
+
+- LLM, prompt, workflow, agent, tool use, and AI coding basics.
+- What an Agent can and cannot safely do.
+- API and tool-calling concepts before building automation.
+
+At the same time, I should turn my Solidity basics into a real operation chain:
+
+- Test wallet.
+- Testnet funds.
+- Test transaction.
+- Minimal contract deployment or interaction.
+- Block explorer proof.
+- Public-safe learning log.
+
+## Week 1 Deliverables
+
+- AI concept cards: LLM, prompt, workflow, agent, tool use, AI coding.
+- Web3 concept cards: account, wallet, mnemonic, private key, address, signature, transaction, Gas, contract, testnet, block explorer.
+- Learning Agent setup log: Codex-assisted repo setup, human confirmations, commit/push proof, and safety boundaries.
+- AI interactive learning artifact: quiz, concept cards, CLI, small page, or flowchart.
+- Testnet interaction record: wallet address, transaction hash, status, Gas, block height, explorer link.
+- Minimal contract interaction record: contract address, one read, one write, explorer proof.
+- AI x Web3 minimal crossover flowchart.
+- Week 1 proof-of-work pack.
+
+## Week 1 Daily Rhythm
+
+Day 1:
+
+- Finalize repo and Learning Agent setup.
+- Write AI concept cards.
+- Record what was AI-assisted and what required human confirmation.
+
+Day 2:
+
+- Write Web3 concept cards.
+- Create a test wallet safety note.
+- Prepare testnet checklist.
+
+Day 3:
+
+- Switch wallet to testnet.
+- Get testnet funds.
+- Send one test transaction.
+- Record transaction hash, status, Gas, block height, and explorer link.
+
+Day 4:
+
+- Use Remix first for speed, or Foundry if ready.
+- Deploy or call one minimal smart contract.
+- Complete one read and one write.
+- Record contract address and transaction proof.
+
+Day 5:
+
+- Build one AI interactive learning artifact.
+- Recommended first artifact: transaction lifecycle quiz or wallet/signature/Gas concept cards.
+- Add the artifact to `demos/`.
+
+Day 6:
+
+- Draw the AI x Web3 minimal crossover flow.
+- Mark human confirmation points and failure recovery points.
+- Write a limited Web3 assistant boundary note.
+
+Day 7:
+
+- Assemble the Week 1 proof-of-work pack.
+- Publish an AI x Web3 learning summary.
+- Push all reviewed updates to GitHub after manual confirmation.
+
 ## Phase 1: Foundation Reset
 
 Duration: 1 to 2 weeks.
@@ -133,4 +213,3 @@ Day 7:
 - What is the smallest useful experiment for next week?
 - Did I keep private information out of public files?
 - What feedback can I send back to the Handbook?
-

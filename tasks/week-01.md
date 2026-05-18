@@ -1,94 +1,250 @@
 # Week 01 Tasks
 
-Goal: move from fragmented knowledge to repeatable workflows.
+Goal: build shared AI and Web3 language, complete one testnet operation chain, and record a minimal AI x Web3 crossover workflow.
 
-## Task 01: Repository Setup
+## Required Tasks
 
-Status: in progress
+### Task 01: AI Concept Cards
+
+Status: todo
+
+Create short concept cards for:
+
+- LLM
+- prompt
+- workflow
+- agent
+- tool use
+- AI coding
 
 Proof:
 
-- `README.md`
-- `profile.md`
-- `learning-plan.md`
-- `daily/2026-05-18.md`
+- `notes/week-01-ai-concept-cards.md`
 
 Done when:
 
-- [x] Learning profile exists.
-- [x] Daily note template exists.
-- [x] Task note template exists.
-- [x] Handbook feedback workflow exists.
-- [ ] Local git repo is initialized after manual confirmation.
-- [ ] GitHub remote is created after manual confirmation.
+- [ ] Each concept explains what it is.
+- [ ] Each concept explains when to use it.
+- [ ] Each concept includes at least one risk or limitation.
 
-## Task 02: Python API Basics
+### Task 02: Learning Agent Setup
 
-Status: todo
+Status: in progress
 
-Goal:
+Record how the learning agent helped initialize this repo and which operations required human confirmation.
 
-- Write a small Python script that calls a public API and prints structured JSON.
+Proof:
 
-Suggested proof:
+- `logs/week-01-learning-agent-setup.md`
+- GitHub repo link.
+- Commit hash.
 
-- Script path.
-- Command used.
-- Short output summary.
-- What request, response, JSON, and status code mean.
+Done when:
 
-## Task 03: LLM API First Call
+- [x] Repo initialized.
+- [x] GitHub repo published.
+- [ ] Agent setup log completed.
+- [ ] Safety boundary written clearly.
 
-Status: todo
-
-Goal:
-
-- Make one safe local LLM API call or prepare a mock if no API key is ready.
-
-Suggested proof:
-
-- `.env.example` updated if needed.
-- Script path.
-- Redacted output summary.
-- Reflection on API key safety.
-
-## Task 04: Foundry Local Test
+### Task 03: AI Interactive Learning Artifact
 
 Status: todo
 
-Goal:
+Create a small interactive or semi-interactive artifact about one Week 1 concept.
 
-- Create or inspect a minimal Foundry project and run tests locally.
+Recommended topic:
 
-Suggested proof:
+- Wallet, signature, transaction, and Gas lifecycle quiz.
 
-- Contract path.
-- Test path.
-- Command used.
-- Output summary.
+Possible formats:
 
-## Task 05: Testnet Deployment Checklist
+- Markdown quiz.
+- Concept card page.
+- CLI quiz.
+- Flowchart.
+- Minimal HTML page.
+
+Proof:
+
+- File in `demos/`.
+- README note explaining what AI generated, what I reviewed, and what may be unreliable.
+
+### Task 04: Web3 Concept Cards
 
 Status: todo
 
-Goal:
+Create short concept cards for:
 
-- Draft a public-safe checklist for deployment without exposing keys.
+- account
+- address
+- wallet
+- mnemonic
+- private key
+- signature
+- transaction
+- Gas
+- smart contract
+- testnet
+- block explorer
 
-Suggested proof:
+Proof:
 
-- Checklist file in `experiments/foundry/`.
-- Notes on RPC, faucet, private key safety, explorer, and verification.
+- `notes/week-01-web3-concept-cards.md`
 
-## Task 06: First Handbook Feedback
+Done when:
 
-Status: draft
+- [ ] Private key and mnemonic risks are explained.
+- [ ] Signature and transaction are distinguished.
+- [ ] Wallet confirmation and block explorer verification are connected.
 
-Goal:
+### Task 05: Testnet Transaction
 
-- Turn one real friction point into a clear Handbook feedback note.
+Status: todo
 
-Suggested proof:
+Complete one testnet transaction with a test wallet.
 
-- `handbook-feedback/2026-05-18-learning-agent-onboarding.md`
+Proof:
 
+- `logs/week-01-testnet-transaction.md`
+
+Record:
+
+- Testnet name.
+- Public wallet address.
+- Transaction hash.
+- Status.
+- Gas used or fee.
+- Block height.
+- Block explorer link.
+- Problems encountered.
+
+Safety:
+
+- [ ] No mnemonic or private key is recorded.
+- [ ] No real funds are used.
+
+### Task 06: Minimal Smart Contract Interaction
+
+Status: todo
+
+Deploy or call one minimal smart contract on a testnet.
+
+Recommended path:
+
+- Use Remix first for speed.
+- Use Foundry later when the basic chain is clear.
+
+Proof:
+
+- `logs/week-01-minimal-contract.md`
+
+Record:
+
+- Contract source or ABI location.
+- Contract address.
+- One read result.
+- One write transaction hash.
+- Explorer link.
+- What wallet confirmed.
+
+### Task 07: EOA, Smart Account, Multi-Sig Comparison
+
+Status: optional
+
+Compare EOA, smart account, and multi-sig from the perspective of permissions and AI automation risk.
+
+Proof:
+
+- `notes/week-01-account-models.md`
+
+### Task 08: AI x Web3 Minimal Flowchart
+
+Status: todo
+
+Draw the minimal crossover process:
+
+AI generates -> human reviews -> wallet confirms -> chain executes -> explorer verifies -> GitHub records.
+
+Proof:
+
+- `demos/week-01-ai-web3-flow.md`
+
+Must include:
+
+- Human confirmation nodes.
+- Failure points.
+- Recovery actions.
+- Things the Agent must not do.
+
+### Task 09: Week 1 Proof-of-Work Pack
+
+Status: todo
+
+Assemble all Week 1 proof into one submission note.
+
+Proof:
+
+- `submissions/week-01-proof-of-work.md`
+
+Must include:
+
+- Repo link.
+- Commit links or hashes.
+- Learning agent log.
+- AI concept notes.
+- Web3 concept notes.
+- Testnet transaction proof.
+- Contract interaction proof.
+- Minimal crossover flow.
+- Security and privacy checklist.
+
+### Task 10: Limited Web3 Assistant Workflow
+
+Status: optional
+
+Design a restricted Web3 assistant or small workflow.
+
+Proof:
+
+- `demos/week-01-limited-web3-assistant.md`
+
+Must state:
+
+- What it can help with.
+- What it cannot do.
+- Where human confirmation is mandatory.
+- How logs and recovery work.
+
+### Task 11: AI x Web3 Learning Summary
+
+Status: todo
+
+Publish a Week 1 learning summary.
+
+Proof:
+
+- `notes/week-01-learning-summary.md`
+
+Suggested structure:
+
+- What I understood.
+- What I built.
+- What I verified on-chain.
+- What still feels unclear.
+- What Week 2 should build on.
+
+### Task 12: Industry Follow List
+
+Status: optional
+
+Build a small AI x Web3 information source list.
+
+Proof:
+
+- `resources.md`
+
+Record:
+
+- 5 to 10 people, projects, or sources.
+- Why they matter.
+- What I want to learn from them.

@@ -11,5 +11,4 @@ Recommended task note format:
 - Reflection.
 - Privacy check.
 
-Start from `templates/task-note.md`.
-
+For Week 1, task records are kept directly in `tasks/week-01.md` to avoid extra templates and duplicated structure.

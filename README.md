@@ -33,7 +33,7 @@ Do not commit:
 - Personal ID numbers, private addresses, phone numbers, or sensitive screenshots.
 - Unreviewed transaction hashes or wallet addresses that should stay private.
 
-Use `.env.example` and public test wallets where possible.
+For Week 1, do not commit any API key template, private key template, `.env` file, seed phrase, or wallet secret. Keep all secrets outside this repository.
 
 ## Directory
 
@@ -46,11 +46,8 @@ Use `.env.example` and public test wallets where possible.
 - `resources.md`: Week 1 resources, links, and follow list.
 - `daily/`: daily check-in drafts and learning logs.
 - `tasks/`: task notes, proof, blockers, and completion records.
-- `experiments/`: coding, Agent, Solidity, Foundry, and data-analysis experiments.
 - `handbook-feedback/`: Handbook feedback drafts and issue-ready notes.
-- `hackathon/`: project ideas, specs, architecture drafts, and demo plans.
 - `submissions/`: finalized submissions and public proof links.
-- `templates/`: reusable note templates.
 
 ## Current Setup Status
 
@@ -70,3 +67,7 @@ Main track:
 2. Web3 basics: account, wallet, signature, transaction, Gas, contract, testnet, and block explorer.
 3. Minimal crossover: AI output -> human review -> wallet confirmation -> on-chain execution -> block explorer verification -> GitHub record.
 4. Proof-of-work: concept notes, learning agent log, testnet transaction, minimal contract interaction, and Week 1 summary.
+
+## Current Cleanup Policy
+
+This repo is intentionally kept small for Week 1. Older future-facing folders such as generic experiments, Hackathon planning, API-key templates, and reusable templates were removed to avoid confusion and reduce public safety risk. They can be reintroduced later only when they are needed and reviewed.

@@ -1,215 +1,108 @@
-# Personalized Learning Plan
+# Week 1 Learning Plan
 
-## North Star
+## Goal
 
-Build a working AI Agent that can read on-chain data, summarize wallet or contract activity, and help produce human-readable analysis for a Hackathon-style demo.
+Follow the Week 1 course schedule first.
 
-## Week 1 Course-Aligned Focus
+The focus is not to rush into a full on-chain data Agent. The focus is to understand the basic AI and Web3 concepts, complete one testnet operation chain, and record one minimal AI x Web3 workflow.
 
-Current priority: do not rush into a full on-chain data Agent yet.
+## My Baseline
 
-Week 1 is for shared language, safety boundaries, and one small AI x Web3 loop:
+AI:
 
-AI output -> human review -> wallet confirmation -> on-chain execution -> block explorer verification -> GitHub record.
+- I have used GPT and Claude.
+- I know some fragmented LLM concepts.
+- I have not used LLM APIs.
+- I have not built Agents.
 
-Because my Web3 foundation is stronger than my AI engineering foundation, I should spend extra time on:
+Web3:
 
-- LLM, prompt, workflow, agent, tool use, and AI coding basics.
-- What an Agent can and cannot safely do.
-- API and tool-calling concepts before building automation.
+- I know basic Web3 concepts.
+- I have Solidity basics.
+- I wrote a staking contract before.
+- I have mostly tested locally.
+- I still need to practice testnets, wallets, explorers, and contract interactions.
 
-At the same time, I should turn my Solidity basics into a real operation chain:
+Programming:
 
-- Test wallet.
-- Testnet funds.
-- Test transaction.
-- Minimal contract deployment or interaction.
-- Block explorer proof.
-- Public-safe learning log.
+- I know some Python and Solidity.
+- I am not comfortable writing scripts.
+- I do not know JavaScript.
+
+## Week 1 Main Track
+
+1. AI basics:
+   LLM, prompt, workflow, agent, tool use, AI coding, and verification.
+
+2. Web3 basics:
+   account, address, wallet, mnemonic, private key, signature, transaction, Gas, smart contract, testnet, and block explorer.
+
+3. Minimal crossover:
+   AI drafts -> human reviews -> wallet confirms -> chain executes -> explorer verifies -> GitHub records.
+
+4. Safety:
+   No private keys, mnemonics, API keys, `.env` files, or sensitive screenshots in this repository.
 
 ## Week 1 Deliverables
 
-- AI concept cards: LLM, prompt, workflow, agent, tool use, AI coding.
-- Web3 concept cards: account, wallet, mnemonic, private key, address, signature, transaction, Gas, contract, testnet, block explorer.
-- Learning Agent setup log: Codex-assisted repo setup, human confirmations, commit/push proof, and safety boundaries.
-- AI interactive learning artifact: quiz, concept cards, CLI, small page, or flowchart.
-- Testnet interaction record: wallet address, transaction hash, status, Gas, block height, explorer link.
-- Minimal contract interaction record: contract address, one read, one write, explorer proof.
-- AI x Web3 minimal crossover flowchart.
-- Week 1 proof-of-work pack.
+- `notes/week-01-ai-concept-cards.md`
+- `notes/week-01-web3-concept-cards.md`
+- `logs/week-01-learning-agent-setup.md`
+- `logs/week-01-testnet-transaction.md`
+- `logs/week-01-minimal-contract.md`
+- `demos/week-01-ai-web3-flow.md`
+- `demos/week-01-transaction-lifecycle-quiz.md`
+- `submissions/week-01-proof-of-work.md`
+- `resources.md`
 
-## Week 1 Daily Rhythm
+## 7-Day Schedule
 
 Day 1:
 
-- Finalize repo and Learning Agent setup.
-- Write AI concept cards.
-- Record what was AI-assisted and what required human confirmation.
+- Finish repo cleanup.
+- Finish Learning Agent setup log.
+- Review AI concept cards.
 
 Day 2:
 
-- Write Web3 concept cards.
-- Create a test wallet safety note.
-- Prepare testnet checklist.
+- Review Web3 concept cards.
+- Prepare test wallet safety checklist.
+- Do not record seed phrases, private keys, or API keys.
 
 Day 3:
 
-- Switch wallet to testnet.
-- Get testnet funds.
+- Switch to a testnet.
+- Get test tokens.
 - Send one test transaction.
-- Record transaction hash, status, Gas, block height, and explorer link.
+- Record hash, status, Gas, block height, and explorer link.
 
 Day 4:
 
-- Use Remix first for speed, or Foundry if ready.
-- Deploy or call one minimal smart contract.
+- Use Remix for the first minimal contract interaction.
 - Complete one read and one write.
 - Record contract address and transaction proof.
 
 Day 5:
 
-- Build one AI interactive learning artifact.
-- Recommended first artifact: transaction lifecycle quiz or wallet/signature/Gas concept cards.
-- Add the artifact to `demos/`.
+- Finish the transaction lifecycle quiz or another small interactive learning artifact.
+- Record what AI generated and what I reviewed.
 
 Day 6:
 
-- Draw the AI x Web3 minimal crossover flow.
-- Mark human confirmation points and failure recovery points.
-- Write a limited Web3 assistant boundary note.
+- Finish AI x Web3 flowchart.
+- Mark human confirmation points, failure points, and recovery actions.
 
 Day 7:
 
-- Assemble the Week 1 proof-of-work pack.
-- Publish an AI x Web3 learning summary.
-- Push all reviewed updates to GitHub after manual confirmation.
+- Assemble Week 1 proof-of-work pack.
+- Write a short learning summary.
+- Push reviewed changes only after confirmation.
 
-## Phase 1: Foundation Reset
+## Week 1 Review Questions
 
-Duration: 1 to 2 weeks.
-
-Goals:
-
-- Turn fragmented AI knowledge into a clear mental model.
-- Become comfortable with Python scripts.
-- Understand API calls, JSON, environment variables, and command-line workflows.
-- Review Solidity basics through a small Foundry project.
-
-Outputs:
-
-- One Python script that calls a public API and saves structured output.
-- One basic LLM API call example.
-- One Foundry project with tests passing locally.
-- Daily notes in `daily/`.
-
-## Phase 2: Web3 Operations
-
-Duration: 1 to 2 weeks.
-
-Goals:
-
-- Learn Foundry project setup, testing, scripts, and deployment.
-- Deploy a simple contract to a testnet.
-- Learn RPC, block explorers, transaction hashes, ABIs, and contract verification.
-
-Outputs:
-
-- A testnet deployment note in `experiments/`.
-- A task proof note in `tasks/`.
-- A clear checklist for future deployments.
-
-## Phase 3: On-Chain Data Analysis
-
-Duration: 2 weeks.
-
-Goals:
-
-- Read wallet, transaction, token, and contract data from APIs or RPC.
-- Clean and structure data with Python.
-- Produce simple summaries, tables, and explanations.
-
-Outputs:
-
-- A Python notebook or script that analyzes wallet or contract activity.
-- At least three example analysis notes in `experiments/`.
-- A small dataset or sample response saved with sensitive fields removed.
-
-## Phase 4: AI Agent Bridge
-
-Duration: 2 weeks.
-
-Goals:
-
-- Learn the basic structure of an Agent: task, tool, memory, loop, and output.
-- Build a minimal Agent that can use one or two tools.
-- Connect the Agent to on-chain data analysis.
-
-Outputs:
-
-- A minimal Agent experiment.
-- A prompt and tool definition note.
-- A demo workflow for a wallet or contract analysis Agent.
-
-## Phase 5: Hackathon Preparation
-
-Duration: ongoing.
-
-Goals:
-
-- Turn experiments into a small product idea.
-- Define user, problem, input, output, and demo path.
-- Prepare submission material.
-
-Outputs:
-
-- `hackathon/idea-bank.md`
-- `hackathon/project-brief.md`
-- `hackathon/demo-script.md`
-- `submissions/README.md`
-
-## First 7 Days
-
-Day 1:
-
-- Finish profile and learning plan.
-- Read the Handbook overview.
-- Create the first daily note.
-
-Day 2:
-
-- Learn API basics: request, response, JSON, status code.
-- Write a tiny Python script that calls a public API.
-
-Day 3:
-
-- Learn environment variables and `.env.example`.
-- Call one LLM API or prepare a local mock if no key is ready.
-
-Day 4:
-
-- Install or review Foundry.
-- Create or inspect a simple Solidity project.
-
-Day 5:
-
-- Write and run Foundry tests for a simple contract.
-- Record test command and result.
-
-Day 6:
-
-- Learn testnet deployment concepts: RPC, faucet, private key safety, explorer.
-- Draft deployment checklist without exposing secrets.
-
-Day 7:
-
-- Review the week.
-- Create one Handbook feedback note.
-- Pick one on-chain data question for next week.
-
-## Weekly Review Questions
-
-- What did I build or prove this week?
-- What concepts are still fuzzy?
-- What is the smallest useful experiment for next week?
-- Did I keep private information out of public files?
-- What feedback can I send back to the Handbook?
+- Can I explain the difference between prompt, workflow, and agent?
+- Can I explain why AI output must be verified?
+- Can I explain the difference between signature and transaction?
+- Can I use a block explorer to verify a transaction?
+- Can I describe where human confirmation is mandatory?
+- Did I keep all secrets out of the public repo?

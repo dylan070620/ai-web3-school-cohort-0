@@ -22,12 +22,10 @@ GitHub repo:
   - `learning-plan.md`
   - `daily/`
   - `tasks/`
-  - `experiments/`
   - `handbook-feedback/`
-  - `hackathon/`
   - `submissions/`
-  - `templates/`
 - Update Week 1 tasks based on the course schedule.
+- Clean up old future-facing folders and API/private-key templates after review.
 
 ## What Required Human Confirmation
 
@@ -40,6 +38,11 @@ GitHub repo:
 ## Commit Proof
 
 - Initial commit: `4cdd1e8 Initialize AI Web3 School learning repository`
+- Week 1 plan update: `28698d5 Update Week 1 course-aligned learning plan`
+
+Note:
+
+- The Week 1 cleanup commit should remove old secret placeholder files, old templates, old generic experiment folders, and Hackathon placeholders from the public repo.
 
 ## Safety Boundaries
 
@@ -66,4 +69,3 @@ The Agent may help:
 The useful pattern is not "let AI do everything." The useful pattern is:
 
 AI drafts -> I review -> I approve sensitive actions -> I verify output -> I record proof.
-

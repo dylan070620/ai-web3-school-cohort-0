@@ -4,11 +4,39 @@ Goal: build shared AI and Web3 language, complete one testnet operation chain, a
 
 Last updated: 2026-05-19
 
+## WCB Platform Sync
+
+Last synced: 2026-05-19 via WCB Agent API read-only calls.
+
+- Program: AI x Web3 School
+- Program ID: `cmnx791nl008sru0167pzp4ki`
+- Task track ID: `cmoy1hces012app01kp9ci5gb`
+- API key storage: local `.env` only, ignored by Git.
+- Platform writes performed: none.
+
+Current WCB status summary:
+
+- Submitted: 13 tasks.
+- Not started: 24 tasks.
+- Total tasks returned: 37.
+- Points endpoint was not available through agent calls.
+
+Important WCB IDs for remaining core work:
+
+- AI interactive learning artifact: `cmp3jyqgx07san301erpv124n`
+- Minimal smart contract interaction: `cmp3jyr3h07sgn301jpcjoma9`
+- AI x Web3 minimal flowchart: `cmp3jyrc507sin301kjhy1mwf`
+- Week 1 Proof-of-Work Pack: `cmp3jyrjn07skn301qopx9rwe`
+- AI x Web3 learning summary: `cmp3jyrq307smn301bmk31xc2`
+- Industry follow list: `cmpaouccj010hmj01515rw0qz`
+
 ## Required Tasks
 
 ### Task 01: AI Concept Cards
 
 Status: done
+
+WCB status: SUBMITTED
 
 Create short concept cards for:
 
@@ -34,6 +62,8 @@ Done when:
 
 Status: done
 
+WCB status: SUBMITTED
+
 Record how the learning agent helped initialize this repo and which operations required human confirmation.
 
 Proof:
@@ -53,6 +83,8 @@ Done when:
 ### Task 03: AI Interactive Learning Artifact
 
 Status: in progress
+
+WCB status: NOT_STARTED
 
 Create a small interactive or semi-interactive artifact about one Week 1 concept.
 
@@ -87,6 +119,8 @@ Done when:
 
 Status: done
 
+WCB status: SUBMITTED
+
 Create short concept cards for:
 
 - account
@@ -115,6 +149,8 @@ Done when:
 ### Task 05: Testnet Transaction
 
 Status: done
+
+WCB status: SUBMITTED
 
 Complete one testnet transaction with a test wallet.
 
@@ -148,6 +184,8 @@ Completed transactions:
 
 Status: todo
 
+WCB status: NOT_STARTED
+
 Deploy or call one minimal smart contract on a testnet.
 
 Recommended path:
@@ -172,6 +210,8 @@ Record:
 
 Status: optional
 
+WCB status: NOT_STARTED
+
 Compare EOA, smart account, and multi-sig from the perspective of permissions and AI automation risk.
 
 Proof:
@@ -181,6 +221,8 @@ Proof:
 ### Task 08: AI x Web3 Minimal Flowchart
 
 Status: in progress
+
+WCB status: NOT_STARTED
 
 Draw the minimal crossover process:
 
@@ -201,6 +243,8 @@ Must include:
 ### Task 09: Week 1 Proof-of-Work Pack
 
 Status: todo
+
+WCB status: NOT_STARTED
 
 Assemble all Week 1 proof into one submission note.
 
@@ -224,6 +268,8 @@ Must include:
 
 Status: optional
 
+WCB status: NOT_STARTED
+
 Design a restricted Web3 assistant or small workflow.
 
 Proof:
@@ -240,6 +286,8 @@ Must state:
 ### Task 11: AI x Web3 Learning Summary
 
 Status: todo
+
+WCB status: NOT_STARTED
 
 Publish a Week 1 learning summary.
 
@@ -258,6 +306,8 @@ Suggested structure:
 ### Task 12: Industry Follow List
 
 Status: optional
+
+WCB status: NOT_STARTED
 
 Build a small AI x Web3 information source list.
 

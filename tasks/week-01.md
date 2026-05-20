@@ -182,7 +182,7 @@ Completed transactions:
 
 ### Task 06: Minimal Smart Contract Interaction
 
-Status: todo
+Status: done
 
 WCB status: NOT_STARTED
 
@@ -199,12 +199,20 @@ Proof:
 
 Record:
 
-- Contract source or ABI location.
-- Contract address.
-- One read result.
-- One write transaction hash.
-- Explorer link.
-- What wallet confirmed.
+- [x] Contract source or ABI location.
+- [x] Contract address.
+- [x] One read result.
+- [x] One write transaction hash.
+- [x] Explorer link.
+- [x] What wallet confirmed.
+
+Completed proof:
+
+- Contract: `Mytoken`
+- Contract address: `0x95cCA7900A1dbA13814430a6eD4993ABbb4E951D`
+- Deploy transaction: `0xec287300f40b20a0df26f1ea54e01a2b3894438f19e02576e8030e839b724810`
+- Read: `_getbalance()` returned `1000000000000000000000000`
+- Write: `mint(address,uint256)` transaction `0xdf8f064399d2ce71d667cf5c693037c37643a93892c8c6885e5bdff3af7ccc6e`
 
 ### Task 07: EOA, Smart Account, Multi-Sig Comparison
 

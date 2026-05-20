@@ -82,7 +82,7 @@ Done when:
 
 ### Task 03: AI Interactive Learning Artifact
 
-Status: in progress
+Status: done
 
 WCB status: NOT_STARTED
 
@@ -113,7 +113,15 @@ Done when:
 
 - [x] Quiz draft exists.
 - [x] Questions cover wallet, signature, Gas, human confirmation, and explorer verification.
-- [ ] Add a short review note explaining what AI generated, what I checked, and what may still be unreliable.
+- [x] Add a short review note explaining what AI generated, what I checked, and what may still be unreliable.
+
+Completed proof:
+
+- Artifact: Transaction Lifecycle Quiz
+- Topic: wallet, signature, Gas, transaction hash, read call, write transaction, explorer verification, and human confirmation.
+- Format: Markdown quiz with learner input fields, reference answers, checklists, and reflection.
+- AI helped draft the quiz structure and explanations.
+- I reviewed it against my Sepolia transfer and ERC20 contract deployment records.
 
 ### Task 04: Web3 Concept Cards
 

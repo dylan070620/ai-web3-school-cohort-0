@@ -224,7 +224,7 @@ Completed proof:
 
 ### Task 07: EOA, Smart Account, Multi-Sig Comparison
 
-Status: optional
+Status: done
 
 WCB status: NOT_STARTED
 
@@ -233,6 +233,11 @@ Compare EOA, smart account, and multi-sig from the perspective of permissions an
 Proof:
 
 - `notes/week-01-account-models.md`
+
+Completed proof:
+
+- Compared control ownership, transaction initiation, approval model, multi-party confirmation, recovery, limits, automation, use cases, and risks.
+- Included human confirmation boundaries for wallet signatures, transfers, approvals, contract writes, signer changes, and permission upgrades.
 
 ### Task 08: AI x Web3 Minimal Flowchart
 

@@ -241,7 +241,7 @@ Completed proof:
 
 ### Task 08: AI x Web3 Minimal Flowchart
 
-Status: in progress
+Status: done
 
 WCB status: NOT_STARTED
 
@@ -259,7 +259,14 @@ Must include:
 - [x] Failure points.
 - [x] Recovery actions.
 - [x] Things the Agent must not do.
-- [ ] Final review and include in Week 1 proof-of-work pack.
+- [x] Final review and include in Week 1 proof-of-work pack.
+
+Completed proof:
+
+- Project idea: `Bootcamp Proof Generator`
+- Goal: read a testnet transaction hash, explain public on-chain data, and generate bootcamp proof markdown.
+- Stack idea: Next.js App Router, TypeScript, Tailwind CSS, viem, `/api/proof`.
+- Safety boundary: no wallet connection, no private key, no signing, no transaction sending.
 
 ### Task 09: Week 1 Proof-of-Work Pack
 

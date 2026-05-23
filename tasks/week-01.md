@@ -294,7 +294,7 @@ Must include:
 
 ### Task 10: Limited Web3 Assistant Workflow
 
-Status: optional
+Status: done
 
 WCB status: NOT_STARTED
 
@@ -303,13 +303,23 @@ Design a restricted Web3 assistant or small workflow.
 Proof:
 
 - `demos/week-01-limited-web3-assistant.md`
+- Live demo: https://bootcamp-proof-generator-dz.vercel.app
+- GitHub repo: https://github.com/dylan070620/bootcamp-proof-generator_dz
 
 Must state:
 
-- What it can help with.
-- What it cannot do.
-- Where human confirmation is mandatory.
-- How logs and recovery work.
+- [x] What it can help with.
+- [x] What it cannot do.
+- [x] Where human confirmation is mandatory.
+- [x] How logs and recovery work.
+
+Completed proof:
+
+- Project: `Bootcamp Proof Generator`
+- Type: restricted read-only Web3 assistant
+- Input: testnet network and transaction hash
+- Output: plain-language explanation and copyable markdown proof
+- Safety boundary: no wallet connection, no private keys, no signing, no transaction sending
 
 ### Task 11: AI x Web3 Learning Summary
 

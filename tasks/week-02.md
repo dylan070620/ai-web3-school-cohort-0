@@ -49,13 +49,20 @@ Proof:
 
 ### Task 03: Agent Profile And Capability Statement
 
-Status: todo
+Status: in progress
 
 WCB status: NOT_STARTED
 
 Proof:
 
 - `notes/week-02-agent-profile.md`
+- `notes/week-02-multi-agent-handoff.md`
+
+Progress:
+
+- Recorded initial multi-agent handoff design.
+- Defined Tx Reader, Tx Explainer, Proof Writer, Risk Checker, and Human Review roles.
+- Marked which handoffs can be automatic and which must stop for human confirmation.
 
 ### Task 04: Agent Wallet Permission Strategy
 
